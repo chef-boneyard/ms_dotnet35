@@ -23,6 +23,3 @@ Usage
 =====
 
 Include the default recipe on a node's runlist to ensure that Microsoft .NET Framework 3.5 is installed on the system
-
-
-
