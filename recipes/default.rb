@@ -29,5 +29,5 @@ if platform?('windows')
     Chef::Log.warn('The Microsoft .NET Framework 3.5 Chef recipe currently only supports Windows Vista, 7, 2008, and 2008 R2.')
   end
 else
-  Chef::Log.warn('Microsoft Framework .NET 3.5 can only be installed on the Windows platform.')
+  Chef::Log.info('Microsoft Framework .NET 3.5 can only be installed on the Windows platform.')
 end
