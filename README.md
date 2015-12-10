@@ -8,6 +8,7 @@ This cookbook installs the Microsoft .NET Framework 3.5 on Windows Vista, 7, and
 ### Platforms
 * Windows Vista
 * Windows 7
+* Windows 2008 / 2008 R2
 
 ### Chef
 - Chef 11+
@@ -17,7 +18,7 @@ This cookbook installs the Microsoft .NET Framework 3.5 on Windows Vista, 7, and
 
 
 ## Attributes
-
+- none
 
 ## Usage
 Include the default recipe on a node's runlist to ensure that Microsoft .NET Framework 3.5 is installed on the system
