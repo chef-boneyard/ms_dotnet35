@@ -20,7 +20,7 @@
 # Install .NET 3.5 Feature if we don't find part of the package already installed
 if platform?('windows')
   if win_version.windows_server_2008? || win_version.windows_server_2008_r2? || win_version.windows_7? || win_version.windows_vista?
-    unless File.exists?('C:/Windows/Microsoft.NET/Framework/v3.5')
+    unless File.exist?('C:/Windows/Microsoft.NET/Framework/v3.5')
       windows_feature 'NetFx3' do
         action :install
       end
