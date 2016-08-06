@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/chef-cookbooks/ms_dotnet35.svg?branch=master)](https://travis-ci.org/chef-cookbooks/ms_dotnet35) [![Cookbook Version](https://img.shields.io/cookbook/v/ms_dotnet35.svg)](https://supermarket.chef.io/cookbooks/ms_dotnet35)
 
-This cookbook installs the Microsoft .NET Framework 3.5 on Windows Vista, 7, and 2008 R1/R2
+This cookbook installs the Microsoft .NET Framework 3.5 on Windows Vista, 7, and 2008 R2
 
 ## Requirements
 
 ### Platforms
 
-- Windows 2008 or greater
+- Windows 2008 R2 or greater
 
 ### Chef
 
