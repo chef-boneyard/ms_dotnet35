@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the ms_dotnet35 cookbook.
 
+## 3.0.0 (2016-09-06)
+
+- Removed support for Chef 11
+
 ## v2.0.0 (2016-03-21)
 
 - Add support for Windows 2012
