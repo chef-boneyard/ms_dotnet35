@@ -8,5 +8,5 @@ version           '2.0.0'
 supports          'windows'
 depends           'windows'
 
-source_url 'https://github.com/chef-cookbooks/ms_dotnet35' if respond_to?(:source_url)
-issues_url 'https://github.com/chef-cookbooks/ms_dotnet35/issues' if respond_to?(:issues_url)
+source_url 'https://github.com/chef-cookbooks/ms_dotnet35'
+issues_url 'https://github.com/chef-cookbooks/ms_dotnet35/issues'
