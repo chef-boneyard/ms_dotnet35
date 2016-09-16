@@ -10,3 +10,4 @@ depends           'windows'
 
 source_url 'https://github.com/chef-cookbooks/ms_dotnet35'
 issues_url 'https://github.com/chef-cookbooks/ms_dotnet35/issues'
+chef_version '>= 12.1'

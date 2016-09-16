@@ -12,7 +12,7 @@ This cookbook installs the Microsoft .NET Framework 3.5 on Windows Vista, 7, and
 
 ### Chef
 
-- Chef 12+
+- Chef 12.1+
 
 ### Cookbooks
 
