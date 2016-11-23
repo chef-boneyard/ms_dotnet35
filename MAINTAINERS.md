@@ -10,6 +10,5 @@ Check out [How Cookbooks are Maintained](https://github.com/chef-cookbooks/commu
 
 # Maintainers
 * [Jennifer Davis](https://github.com/sigje)
-* [Sean OMeara](https://github.com/someara)
 * [Tim Smith](https://github.com/tas50)
 * [Thom May](https://github.com/thommay)
