@@ -1,6 +1,6 @@
 #
 # Author:: Timothy Smith (<tsmith@chef.io>)
-# Cookbook::  ms_dotnet35
+# Cookbook:: ms_dotnet35
 # Recipe:: default
 #
 # Copyright:: 2012-2016, Webtrends, Inc.
