@@ -19,15 +19,15 @@
 
 # Install .NET 3.5 Feature if we don't find part of the package already installed
 if platform?('windows')
-  if node['platform_version'].to_i >= 6
+  if node['platform_version'].to_f >= 6.1
     windows_feature 'NetFx3' do
       action :install
-      all true
+      all true if node['platform_version'].to_f >= 6.2
       not_if { ::File.exist?('C:/Windows/Microsoft.NET/Framework/v3.5') }
     end
   else
-    Chef::Log.warn('The Microsoft .NET Framework 3.5 Chef recipe currently only supports Windows Vista, 7, 2008, and 2008 R2.')
+    Chef::Log.warn('The Microsoft .NET Framework 3.5 Chef recipe currently only supports Windows 7 and 2008 R2 and later.')
   end
 else
-  Chef::Log.info('Microsoft Framework .NET 3.5 can only be installed on the Windows platform.')
+  Chef::Log.info('Microsoft .NET Framework 3.5 can only be installed on the Windows platform.')
 end
