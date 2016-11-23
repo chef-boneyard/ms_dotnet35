@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/chef-cookbooks/ms_dotnet35.svg?branch=master)](https://travis-ci.org/chef-cookbooks/ms_dotnet35) [![Cookbook Version](https://img.shields.io/cookbook/v/ms_dotnet35.svg)](https://supermarket.chef.io/cookbooks/ms_dotnet35)
 
-This cookbook installs the Microsoft .NET Framework 3.5 on Windows Vista, 7, and 2008 R2
+This cookbook installs the Microsoft .NET Framework 3.5
 
 ## Requirements
 
 ### Platforms
 
-- Windows 2008 R2 or greater
+- Windows 7 / 2008 R2 or greater
 
 ### Chef
 
@@ -30,7 +30,7 @@ Include the default recipe on a node's run_list to ensure that Microsoft .NET Fr
 
 **Author:** Tim Smith ([tsmith@chef.io](mailto:tsmith@chef.io))
 
-**Copyright:** 2011-2015, Webtrends, Inc.
+**Copyright:** 2011-2016, Webtrends, Inc.
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
