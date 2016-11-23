@@ -2,6 +2,11 @@
 
 This file is used to list changes made in each version of the ms_dotnet35 cookbook.
 
+## 3.2.0 (2016-11-23)
+- Remove Chef 11 testing and add more platforms to kitchen
+- Clarify the platforms we support
+- Fix warnings, platform check, and usage of the all flag
+
 ## 3.1.0 (2016-09-16)
 - Require Chef 12.1 not 12.0
 
