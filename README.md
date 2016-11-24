@@ -4,6 +4,10 @@
 
 This cookbook installs the Microsoft .NET Framework 3.5
 
+# DEPRECATED
+
+This cookbook has been deprecated in favor of the ms_dotnet cookbook by criteo at <https://supermarket.chef.io/cookbooks/ms_dotnet>. The ms_dot cookbook provides a single cookbook to install all version of the .NET Framework and also includes a provider that aids in writing wrapper cookbooks.
+
 ## Requirements
 
 ### Platforms
